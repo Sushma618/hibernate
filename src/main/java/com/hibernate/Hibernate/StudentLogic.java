@@ -19,7 +19,7 @@ public class StudentLogic {
         // Insert a sample Student record to test the fetch operation
         Student std = new Student();
         std.setId(111);
-        std.setName("sushma");
+        std.setName("rohi");
         std.setCgpa(10);
         s.save(std);
 
