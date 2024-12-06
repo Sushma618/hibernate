@@ -32,7 +32,7 @@ public class StudentLogic {
         if (fetchedStd != null) {
             System.out.println("Name: " + fetchedStd.getName());
         } else {
-            System.out.println("No student found with ID 111");
+            System.out.println("No students found with ID 111");
         }
 
         s.close();
